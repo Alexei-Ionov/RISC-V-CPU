@@ -184,10 +184,6 @@
       <a name="label" val="ALURes"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(160,960)" name="Tunnel">
-      <a name="label" val="PC_4"/>
-      <a name="width" val="32"/>
-    </comp>
     <comp lib="0" loc="(1600,620)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="RS2"/>
@@ -351,7 +347,7 @@
       <a name="label" val="WB_RES"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(680,560)" name="Tunnel">
+    <comp lib="0" loc="(680,530)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="clk"/>
     </comp>
@@ -542,7 +538,6 @@
     <wire from="(1350,500)" to="(1420,500)"/>
     <wire from="(1350,660)" to="(1410,660)"/>
     <wire from="(140,960)" to="(140,990)"/>
-    <wire from="(140,960)" to="(160,960)"/>
     <wire from="(140,990)" to="(160,990)"/>
     <wire from="(1410,190)" to="(1410,220)"/>
     <wire from="(1410,620)" to="(1410,660)"/>
@@ -615,8 +610,7 @@
     <wire from="(610,510)" to="(610,630)"/>
     <wire from="(610,510)" to="(690,510)"/>
     <wire from="(670,490)" to="(690,490)"/>
-    <wire from="(680,560)" to="(690,560)"/>
-    <wire from="(690,530)" to="(690,560)"/>
+    <wire from="(680,530)" to="(690,530)"/>
     <wire from="(70,970)" to="(90,970)"/>
     <wire from="(700,730)" to="(700,780)"/>
     <wire from="(700,730)" to="(710,730)"/>
