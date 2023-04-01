@@ -39,11 +39,11 @@
       <a name="font" val="SansSerif plain 12"/>
     </tool>
   </lib>
-  <lib desc="file#branch-comp.circ" name="6"/>
-  <lib desc="file#partial-load.circ" name="7"/>
-  <lib desc="file#regfile.circ" name="8"/>
-  <lib desc="file#control-logic.circ" name="9"/>
-  <lib desc="file#partial-store.circ" name="10"/>
+  <lib desc="file#control-logic.circ" name="6"/>
+  <lib desc="file#partial-store.circ" name="7"/>
+  <lib desc="file#partial-load.circ" name="8"/>
+  <lib desc="file#branch-comp.circ" name="9"/>
+  <lib desc="file#regfile.circ" name="10"/>
   <lib desc="file#alu.circ" name="11"/>
   <lib desc="file#imm-gen.circ" name="12"/>
   <main name="cpu"/>
@@ -254,10 +254,6 @@
       <a name="output" val="true"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(190,1200)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="clk"/>
-    </comp>
     <comp lib="0" loc="(1920,460)" name="Tunnel">
       <a name="label" val="WB_RES"/>
       <a name="width" val="32"/>
@@ -276,6 +272,10 @@
     <comp lib="0" loc="(2240,230)" name="Tunnel">
       <a name="label" val="MemReadData"/>
       <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(250,1080)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
     </comp>
     <comp lib="0" loc="(250,150)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -449,7 +449,7 @@
       <a name="label" val="RS2"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="10" loc="(2270,450)" name="partial_store"/>
+    <comp lib="10" loc="(910,430)" name="regfile"/>
     <comp lib="11" loc="(1500,560)" name="alu"/>
     <comp lib="12" loc="(960,700)" name="imm_gen"/>
     <comp lib="2" loc="(1350,500)" name="Multiplexer">
@@ -477,7 +477,7 @@
       <a name="font" val="SansSerif bold 22"/>
       <a name="text" val="Inputs/Outputs for testing. Do **NOT** move these."/>
     </comp>
-    <comp lib="5" loc="(1391,2203)" name="Text">
+    <comp lib="5" loc="(1390,2200)" name="Text">
       <a name="font" val="SansSerif plain 22"/>
       <a name="text" val="It is OK to move the PC, RegFile, ALU, MEM, Branch Comp, Imm Gen, Partial Load, Partial Store and Control Logic to wherever is most convenient for you when constructing your CPU, and to delete this text"/>
     </comp>
@@ -501,10 +501,10 @@
     <comp lib="5" loc="(480,100)" name="Text">
       <a name="text" val="From IMEM"/>
     </comp>
-    <comp lib="6" loc="(1220,590)" name="branch_comp"/>
-    <comp lib="7" loc="(2260,630)" name="partial_load"/>
-    <comp lib="8" loc="(910,430)" name="regfile"/>
-    <comp lib="9" loc="(840,930)" name="control_logic"/>
+    <comp lib="6" loc="(840,930)" name="control_logic"/>
+    <comp lib="7" loc="(2270,450)" name="partial_store"/>
+    <comp lib="8" loc="(2260,630)" name="partial_load"/>
+    <comp lib="9" loc="(1220,590)" name="branch_comp"/>
     <wire from="(1000,630)" to="(1000,680)"/>
     <wire from="(1000,680)" to="(1090,680)"/>
     <wire from="(1040,730)" to="(1040,930)"/>
@@ -576,10 +576,7 @@
     <wire from="(1850,460)" to="(1860,460)"/>
     <wire from="(1880,480)" to="(1880,890)"/>
     <wire from="(190,1000)" to="(220,1000)"/>
-    <wire from="(190,1200)" to="(200,1200)"/>
     <wire from="(1900,460)" to="(1920,460)"/>
-    <wire from="(200,1080)" to="(200,1200)"/>
-    <wire from="(200,1080)" to="(280,1080)"/>
     <wire from="(200,150)" to="(250,150)"/>
     <wire from="(200,170)" to="(200,240)"/>
     <wire from="(200,240)" to="(380,240)"/>
@@ -590,6 +587,7 @@
     <wire from="(2210,230)" to="(2240,230)"/>
     <wire from="(2220,250)" to="(2220,330)"/>
     <wire from="(2220,50)" to="(2220,210)"/>
+    <wire from="(250,1080)" to="(280,1080)"/>
     <wire from="(310,520)" to="(350,520)"/>
     <wire from="(340,1040)" to="(350,1040)"/>
     <wire from="(350,1040)" to="(390,1040)"/>
