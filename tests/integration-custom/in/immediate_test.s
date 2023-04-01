@@ -1,1 +1,1 @@
-addi s0 x0 10
+add s0 x0 10
