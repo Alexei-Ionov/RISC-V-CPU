@@ -848,11 +848,11 @@
     </comp>
     <comp lib="0" loc="(940,500)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="BrEq"/>
+      <a name="label" val="B_ON"/>
     </comp>
     <comp lib="0" loc="(940,540)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="BrLt"/>
+      <a name="label" val="B_ON"/>
     </comp>
     <comp lib="0" loc="(940,920)" name="Tunnel">
       <a name="label" val="xori"/>
