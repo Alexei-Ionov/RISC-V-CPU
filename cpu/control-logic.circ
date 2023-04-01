@@ -750,7 +750,9 @@
       <a name="facing" val="east"/>
       <a name="label" val="BRANCH_ON"/>
     </comp>
-    <comp lib="0" loc="(940,620)" name="Constant"/>
+    <comp lib="0" loc="(940,620)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="0" loc="(940,920)" name="Tunnel">
       <a name="label" val="xori"/>
     </comp>
@@ -767,7 +769,9 @@
       <a name="label" val="R_Funct7"/>
       <a name="width" val="7"/>
     </comp>
-    <comp lib="0" loc="(960,660)" name="Constant"/>
+    <comp lib="0" loc="(960,660)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="0" loc="(980,1330)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="mul_on"/>
