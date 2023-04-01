@@ -1,7 +1,16 @@
 addi s0, x0, 1
-xori s0, s0, 10
-addi s1, s0, 5
-add s2, s1, s0
-mul s2, s2, s2
-sub s2, s2, s1
+addi s1 s0 9
+
+beq s0 s1 label1
+blt s1 s0 label2
+bgeu s1 s0 label3
+
+
+
+label1:
+
+label2:
+
+label3:
+
 
