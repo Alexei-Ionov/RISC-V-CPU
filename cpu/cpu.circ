@@ -223,7 +223,7 @@
     </comp>
     <comp lib="0" loc="(1780,710)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="RS1"/>
+      <a name="label" val="MemWriteData"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(1790,560)" name="Tunnel">
@@ -302,7 +302,7 @@
       <a name="label" val="MemReadData"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(2460,500)" name="Tunnel">
+    <comp lib="0" loc="(2460,470)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="PC_4"/>
       <a name="width" val="32"/>
@@ -649,8 +649,8 @@
     <wire from="(2450,420)" to="(2460,420)"/>
     <wire from="(2460,420)" to="(2460,440)"/>
     <wire from="(2460,440)" to="(2490,440)"/>
-    <wire from="(2460,500)" to="(2470,500)"/>
-    <wire from="(2470,460)" to="(2470,500)"/>
+    <wire from="(2460,470)" to="(2470,470)"/>
+    <wire from="(2470,460)" to="(2470,470)"/>
     <wire from="(2470,460)" to="(2490,460)"/>
     <wire from="(250,1080)" to="(280,1080)"/>
     <wire from="(2510,480)" to="(2510,890)"/>
