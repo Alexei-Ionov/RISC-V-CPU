@@ -17,5 +17,5 @@ sb   s1, -202(s0)
 sb   s1, -201(s0)
 lw   ra, 80(s1)
 lh ra, 82(s1)
-lb ra, 81(s1)
+
 
