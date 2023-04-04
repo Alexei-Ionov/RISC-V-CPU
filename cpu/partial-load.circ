@@ -522,7 +522,7 @@
     </comp>
     <comp lib="0" loc="(800,780)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="New_Funct_3"/>
+      <a name="label" val="Funct3"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(870,170)" name="Tunnel">
