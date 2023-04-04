@@ -14,7 +14,7 @@ sh   s1, -202(s0)
 sb   s1, -204(s0)
 sb   s1, -203(s0)
 sb   s1, -202(s0)
-lw   ra, 80(s1)
+lw   ra, 80(s0)
 lh ra, 82(s1)
 
 
