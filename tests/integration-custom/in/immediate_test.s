@@ -4,6 +4,5 @@ addi s1, s1, 1864
 sw   s1, 80(s0)
 sw   s1, -20(s0)
 lw   t0, 80(s0)
-lh   t1, 80(s0)
+lb   t1, 80(s0)
 lh t2, 80(s0)
-lh ra -20(s0)
