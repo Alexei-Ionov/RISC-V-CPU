@@ -276,7 +276,7 @@
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(2030,640)" name="Tunnel">
-      <a name="label" val="MemWriteData"/>
+      <a name="label" val="load_data"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(2040,520)" name="Tunnel">
@@ -299,7 +299,7 @@
     </comp>
     <comp lib="0" loc="(2450,420)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="MemReadData"/>
+      <a name="label" val="load_data"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(2460,470)" name="Tunnel">
