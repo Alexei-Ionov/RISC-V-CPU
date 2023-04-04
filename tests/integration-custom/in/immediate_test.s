@@ -3,6 +3,5 @@ lui  s1, 86627   # 0x15263748
 addi s1, s1, 1864
 sw   s1, 80(s0)
 lw   ra, 80(s0)
-lh ra, 10(s1)
 
 
