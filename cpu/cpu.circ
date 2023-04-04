@@ -221,7 +221,7 @@
       <a name="label" val="Instruction"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1780,710)" name="Tunnel">
+    <comp lib="0" loc="(1780,720)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="MemReadData"/>
       <a name="width" val="32"/>
@@ -276,7 +276,7 @@
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(2030,640)" name="Tunnel">
-      <a name="label" val="MemReadData"/>
+      <a name="label" val="MemWriteData"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(2040,520)" name="Tunnel">
@@ -617,11 +617,11 @@
     <wire from="(1780,640)" to="(1800,640)"/>
     <wire from="(1780,660)" to="(1780,680)"/>
     <wire from="(1780,660)" to="(1800,660)"/>
-    <wire from="(1780,710)" to="(1800,710)"/>
+    <wire from="(1780,720)" to="(1800,720)"/>
     <wire from="(1790,480)" to="(1790,520)"/>
     <wire from="(1790,520)" to="(1800,520)"/>
     <wire from="(1790,560)" to="(1800,560)"/>
-    <wire from="(1800,680)" to="(1800,710)"/>
+    <wire from="(1800,680)" to="(1800,720)"/>
     <wire from="(1830,150)" to="(1830,180)"/>
     <wire from="(1830,220)" to="(1830,250)"/>
     <wire from="(1830,270)" to="(1880,270)"/>
