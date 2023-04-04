@@ -457,9 +457,6 @@
       <a name="facing" val="east"/>
       <a name="label" val="slt"/>
     </comp>
-    <comp lib="0" loc="(280,740)" name="Tunnel">
-      <a name="label" val="jalr"/>
-    </comp>
     <comp lib="0" loc="(290,410)" name="Tunnel">
       <a name="label" val="lb"/>
     </comp>
@@ -494,12 +491,6 @@
     </comp>
     <comp lib="0" loc="(330,540)" name="Tunnel">
       <a name="label" val="sb"/>
-    </comp>
-    <comp lib="0" loc="(330,630)" name="Tunnel">
-      <a name="label" val="jal"/>
-    </comp>
-    <comp lib="0" loc="(340,700)" name="Tunnel">
-      <a name="label" val="auipc"/>
     </comp>
     <comp lib="0" loc="(350,1290)" name="Tunnel">
       <a name="label" val="S_ON"/>
@@ -569,14 +560,6 @@
     <comp lib="0" loc="(390,290)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="xor_tun"/>
-    </comp>
-    <comp lib="0" loc="(40,930)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="bge"/>
-    </comp>
-    <comp lib="0" loc="(40,960)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="bltu"/>
     </comp>
     <comp lib="0" loc="(410,1430)" name="Splitter">
       <a name="appear" val="center"/>
@@ -811,42 +794,6 @@
       <a name="facing" val="east"/>
       <a name="label" val="addi"/>
     </comp>
-    <comp lib="0" loc="(60,510)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="andi"/>
-    </comp>
-    <comp lib="0" loc="(60,550)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="ori"/>
-    </comp>
-    <comp lib="0" loc="(60,580)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="xori"/>
-    </comp>
-    <comp lib="0" loc="(60,630)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="slli"/>
-    </comp>
-    <comp lib="0" loc="(60,670)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="srli"/>
-    </comp>
-    <comp lib="0" loc="(60,710)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="srai"/>
-    </comp>
-    <comp lib="0" loc="(60,750)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="slti"/>
-    </comp>
-    <comp lib="0" loc="(60,860)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="bne"/>
-    </comp>
-    <comp lib="0" loc="(60,890)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="blt"/>
-    </comp>
     <comp lib="0" loc="(600,1830)" name="Constant">
       <a name="value" val="0x20"/>
       <a name="width" val="7"/>
@@ -1023,10 +970,6 @@
       <a name="facing" val="north"/>
       <a name="label" val="I_Imm_Func3"/>
       <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(80,800)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="beq"/>
     </comp>
     <comp lib="0" loc="(800,1300)" name="Tunnel">
       <a name="facing" val="east"/>
