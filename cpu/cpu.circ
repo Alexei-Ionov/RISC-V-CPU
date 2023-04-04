@@ -39,13 +39,13 @@
       <a name="font" val="SansSerif plain 12"/>
     </tool>
   </lib>
-  <lib desc="file#imm-gen.circ" name="6"/>
-  <lib desc="file#control-logic.circ" name="7"/>
-  <lib desc="file#partial-load.circ" name="8"/>
-  <lib desc="file#regfile.circ" name="9"/>
-  <lib desc="file#branch-comp.circ" name="10"/>
-  <lib desc="file#partial-store.circ" name="11"/>
-  <lib desc="file#alu.circ" name="12"/>
+  <lib desc="file#partial-load.circ" name="6"/>
+  <lib desc="file#branch-comp.circ" name="7"/>
+  <lib desc="file#partial-store.circ" name="8"/>
+  <lib desc="file#imm-gen.circ" name="9"/>
+  <lib desc="file#regfile.circ" name="10"/>
+  <lib desc="file#alu.circ" name="11"/>
+  <lib desc="file#control-logic.circ" name="12"/>
   <main name="cpu"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -323,7 +323,6 @@
       <a name="label" val="WB_RES"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(270,1060)" name="Constant"/>
     <comp lib="0" loc="(300,520)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Instruction"/>
@@ -493,9 +492,9 @@
       <a name="label" val="RS1"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="10" loc="(1220,590)" name="branch_comp"/>
-    <comp lib="11" loc="(2020,520)" name="partial_store"/>
-    <comp lib="12" loc="(1500,560)" name="alu"/>
+    <comp lib="10" loc="(910,430)" name="regfile"/>
+    <comp lib="11" loc="(1500,560)" name="alu"/>
+    <comp lib="12" loc="(840,930)" name="control_logic"/>
     <comp lib="2" loc="(1350,500)" name="Multiplexer">
       <a name="width" val="32"/>
     </comp>
@@ -545,10 +544,10 @@
     <comp lib="5" loc="(480,100)" name="Text">
       <a name="text" val="From IMEM"/>
     </comp>
-    <comp lib="6" loc="(960,700)" name="imm_gen"/>
-    <comp lib="7" loc="(840,930)" name="control_logic"/>
-    <comp lib="8" loc="(2410,640)" name="partial_load"/>
-    <comp lib="9" loc="(910,430)" name="regfile"/>
+    <comp lib="6" loc="(2410,640)" name="partial_load"/>
+    <comp lib="7" loc="(1220,590)" name="branch_comp"/>
+    <comp lib="8" loc="(2020,520)" name="partial_store"/>
+    <comp lib="9" loc="(960,700)" name="imm_gen"/>
     <wire from="(1000,630)" to="(1000,680)"/>
     <wire from="(1000,680)" to="(1090,680)"/>
     <wire from="(1040,730)" to="(1040,930)"/>

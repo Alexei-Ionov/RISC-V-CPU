@@ -71,10 +71,6 @@
     <a name="circuit" val="partial_load"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(1060,680)" name="Tunnel">
-      <a name="label" val="DataToReg"/>
-      <a name="width" val="32"/>
-    </comp>
     <comp lib="0" loc="(190,500)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="DataFromMem"/>
@@ -532,6 +528,10 @@
       <a name="label" val="Funct3"/>
       <a name="width" val="3"/>
     </comp>
+    <comp lib="0" loc="(790,680)" name="Tunnel">
+      <a name="label" val="DataToReg"/>
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="0" loc="(870,170)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="DataToReg"/>
@@ -543,54 +543,6 @@
       <a name="label" val="DataToReg"/>
       <a name="locked" val="true"/>
       <a name="output" val="true"/>
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(900,720)" name="Splitter">
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit10" val="none"/>
-      <a name="bit11" val="none"/>
-      <a name="bit12" val="none"/>
-      <a name="bit13" val="none"/>
-      <a name="bit14" val="none"/>
-      <a name="bit15" val="none"/>
-      <a name="bit16" val="none"/>
-      <a name="bit17" val="none"/>
-      <a name="bit18" val="none"/>
-      <a name="bit19" val="none"/>
-      <a name="bit2" val="0"/>
-      <a name="bit20" val="none"/>
-      <a name="bit21" val="none"/>
-      <a name="bit22" val="none"/>
-      <a name="bit23" val="none"/>
-      <a name="bit24" val="none"/>
-      <a name="bit25" val="none"/>
-      <a name="bit26" val="none"/>
-      <a name="bit27" val="none"/>
-      <a name="bit28" val="none"/>
-      <a name="bit29" val="none"/>
-      <a name="bit3" val="0"/>
-      <a name="bit30" val="none"/>
-      <a name="bit31" val="none"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="0"/>
-      <a name="bit7" val="none"/>
-      <a name="bit8" val="none"/>
-      <a name="bit9" val="none"/>
-      <a name="fanout" val="1"/>
-      <a name="incoming" val="32"/>
-    </comp>
-    <comp lib="0" loc="(900,720)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Instruction"/>
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(940,740)" name="Constant">
-      <a name="value" val="0x3"/>
-      <a name="width" val="7"/>
-    </comp>
-    <comp lib="2" loc="(1000,670)" name="Demultiplexer">
       <a name="width" val="32"/>
     </comp>
     <comp lib="2" loc="(430,560)" name="Multiplexer">
@@ -605,9 +557,6 @@
       <a name="select" val="3"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="3" loc="(990,730)" name="Comparator">
-      <a name="width" val="7"/>
-    </comp>
     <comp lib="5" loc="(150,100)" name="Text">
       <a name="text" val="INPUTS to your circuit"/>
     </comp>
@@ -617,8 +566,6 @@
     <comp lib="5" loc="(975,110)" name="Text">
       <a name="text" val="OUTPUT from your circuit"/>
     </comp>
-    <wire from="(1020,690)" to="(1020,730)"/>
-    <wire from="(1030,680)" to="(1060,680)"/>
     <wire from="(1080,120)" to="(1080,230)"/>
     <wire from="(190,500)" to="(200,500)"/>
     <wire from="(190,570)" to="(200,570)"/>
@@ -684,17 +631,12 @@
     <wire from="(670,660)" to="(710,660)"/>
     <wire from="(730,720)" to="(730,770)"/>
     <wire from="(730,770)" to="(770,770)"/>
-    <wire from="(750,680)" to="(990,680)"/>
+    <wire from="(750,680)" to="(790,680)"/>
     <wire from="(770,770)" to="(770,780)"/>
     <wire from="(870,120)" to="(1080,120)"/>
     <wire from="(870,120)" to="(870,150)"/>
     <wire from="(870,170)" to="(890,170)"/>
     <wire from="(870,190)" to="(870,230)"/>
     <wire from="(870,230)" to="(1080,230)"/>
-    <wire from="(920,720)" to="(950,720)"/>
-    <wire from="(940,740)" to="(950,740)"/>
-    <wire from="(990,670)" to="(1000,670)"/>
-    <wire from="(990,670)" to="(990,680)"/>
-    <wire from="(990,730)" to="(1020,730)"/>
   </circuit>
 </project>
