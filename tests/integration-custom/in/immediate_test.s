@@ -1,4 +1,4 @@
-addi s0 x0 100000
+addi s0 x0 1000
 addi s1 x0 500
 sw s1 0(s0)
 lw s2 4(s0)
