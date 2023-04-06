@@ -71,7 +71,7 @@
     <a name="circuit" val="partial_load"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(1020,460)" name="Tunnel">
+    <comp lib="0" loc="(1030,460)" name="Tunnel">
       <a name="label" val="DataToReg"/>
       <a name="width" val="32"/>
     </comp>
@@ -458,7 +458,7 @@
       <a name="fanout" val="1"/>
       <a name="incoming" val="32"/>
     </comp>
-    <comp lib="0" loc="(670,330)" name="Bit Extender">
+    <comp lib="0" loc="(670,320)" name="Bit Extender">
       <a name="out_width" val="32"/>
     </comp>
     <comp lib="0" loc="(670,370)" name="Bit Extender">
@@ -491,6 +491,11 @@
       <a name="facing" val="north"/>
       <a name="label" val="bot_bits"/>
       <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(860,670)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="DataToReg"/>
+      <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(870,170)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -531,7 +536,7 @@
     <comp lib="5" loc="(975,110)" name="Text">
       <a name="text" val="OUTPUT from your circuit"/>
     </comp>
-    <wire from="(1000,460)" to="(1020,460)"/>
+    <wire from="(1000,460)" to="(1030,460)"/>
     <wire from="(1080,120)" to="(1080,230)"/>
     <wire from="(230,170)" to="(250,170)"/>
     <wire from="(230,260)" to="(250,260)"/>
@@ -561,20 +566,24 @@
     <wire from="(570,570)" to="(570,600)"/>
     <wire from="(570,570)" to="(590,570)"/>
     <wire from="(570,600)" to="(850,600)"/>
-    <wire from="(610,330)" to="(630,330)"/>
+    <wire from="(610,330)" to="(620,330)"/>
     <wire from="(610,370)" to="(630,370)"/>
     <wire from="(610,410)" to="(630,410)"/>
     <wire from="(610,450)" to="(630,450)"/>
     <wire from="(610,490)" to="(630,490)"/>
     <wire from="(610,530)" to="(630,530)"/>
     <wire from="(610,570)" to="(630,570)"/>
-    <wire from="(670,330)" to="(760,330)"/>
+    <wire from="(620,320)" to="(620,330)"/>
+    <wire from="(620,320)" to="(630,320)"/>
+    <wire from="(670,320)" to="(680,320)"/>
     <wire from="(670,370)" to="(680,370)"/>
     <wire from="(670,410)" to="(690,410)"/>
     <wire from="(670,450)" to="(700,450)"/>
     <wire from="(670,490)" to="(730,490)"/>
     <wire from="(670,530)" to="(680,530)"/>
     <wire from="(670,570)" to="(690,570)"/>
+    <wire from="(680,320)" to="(680,330)"/>
+    <wire from="(680,330)" to="(760,330)"/>
     <wire from="(680,340)" to="(680,370)"/>
     <wire from="(680,340)" to="(760,340)"/>
     <wire from="(680,500)" to="(680,530)"/>
@@ -595,11 +604,26 @@
     <wire from="(850,440)" to="(960,440)"/>
     <wire from="(860,350)" to="(860,420)"/>
     <wire from="(860,420)" to="(960,420)"/>
+    <wire from="(860,670)" to="(870,670)"/>
     <wire from="(870,120)" to="(1080,120)"/>
     <wire from="(870,120)" to="(870,150)"/>
     <wire from="(870,170)" to="(890,170)"/>
     <wire from="(870,190)" to="(870,230)"/>
     <wire from="(870,230)" to="(1080,230)"/>
+    <wire from="(870,450)" to="(870,670)"/>
+    <wire from="(870,450)" to="(920,450)"/>
+    <wire from="(920,450)" to="(920,470)"/>
+    <wire from="(920,450)" to="(940,450)"/>
+    <wire from="(920,470)" to="(940,470)"/>
+    <wire from="(940,450)" to="(940,460)"/>
+    <wire from="(940,450)" to="(960,450)"/>
+    <wire from="(940,460)" to="(960,460)"/>
+    <wire from="(940,470)" to="(940,480)"/>
+    <wire from="(940,470)" to="(960,470)"/>
+    <wire from="(940,480)" to="(950,480)"/>
+    <wire from="(950,480)" to="(950,490)"/>
+    <wire from="(950,480)" to="(960,480)"/>
+    <wire from="(950,490)" to="(960,490)"/>
     <wire from="(980,500)" to="(980,540)"/>
   </circuit>
 </project>
