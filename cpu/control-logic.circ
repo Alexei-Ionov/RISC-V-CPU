@@ -586,10 +586,6 @@
       <a name="facing" val="east"/>
       <a name="label" val="bltu"/>
     </comp>
-    <comp lib="0" loc="(410,1150)" name="Tunnel">
-      <a name="label" val="L_Func3"/>
-      <a name="width" val="3"/>
-    </comp>
     <comp lib="0" loc="(410,1430)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="bit0" val="none"/>
@@ -711,6 +707,10 @@
     <comp lib="0" loc="(420,230)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="RegWEn"/>
+    </comp>
+    <comp lib="0" loc="(430,1150)" name="Tunnel">
+      <a name="label" val="L_Func3"/>
+      <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(430,1400)" name="Tunnel">
       <a name="label" val="R_Func3"/>
@@ -1234,7 +1234,7 @@
       <a name="contents">addr/data: 6 16
 100f 140f 160f 108f 148f 158f 110f 120f
 128f 168f 130f 138f 41 41 41 1041
-10c1 1141 1341 12c1 16c1 1341 13c1 3842
+10c1 1141 1241 12c1 16c1 1341 13c1 3842
 3842 3842 4*3064 3074 3074 1067 17c7 2069
 2041 2041
 </a>
@@ -1536,6 +1536,7 @@
     <wire from="(400,1050)" to="(420,1050)"/>
     <wire from="(400,1250)" to="(420,1250)"/>
     <wire from="(400,290)" to="(400,330)"/>
+    <wire from="(410,1150)" to="(430,1150)"/>
     <wire from="(420,1110)" to="(440,1110)"/>
     <wire from="(420,210)" to="(420,230)"/>
     <wire from="(430,1000)" to="(450,1000)"/>
