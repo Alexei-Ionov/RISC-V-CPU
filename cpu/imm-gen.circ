@@ -160,7 +160,6 @@
     <comp lib="0" loc="(1190,310)" name="Bit Extender">
       <a name="in_width" val="5"/>
       <a name="out_width" val="32"/>
-      <a name="type" val="zero"/>
     </comp>
     <comp lib="0" loc="(1390,600)" name="Tunnel">
       <a name="facing" val="north"/>
