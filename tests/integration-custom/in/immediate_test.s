@@ -15,3 +15,5 @@ ori  t0, s0, 2047
 ori  t0, s0, -2048
 xori t0, s0, 2047
 xori t0, s0, -2048
+slli t0, s0, 30
+slli t0, s0, 31
