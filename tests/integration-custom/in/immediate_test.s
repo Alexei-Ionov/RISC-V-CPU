@@ -17,3 +17,5 @@ xori t0, s0, 2047
 xori t0, s0, -2048
 slli t0, s0, 30
 slli t0, s0, 31
+srai t0, s0, 30
+srai t0, s0, 31
