@@ -18,5 +18,10 @@ xori t0, s0, -2048
 
 addi s4, x0, 300
 sra t0, s0, s4
+srl t0, s0, s4
+srl t0, t0, s0
+
+
+
 
 
