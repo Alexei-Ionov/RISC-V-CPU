@@ -523,6 +523,7 @@
     </comp>
     <comp lib="0" loc="(290,770)" name="Constant">
       <a name="facing" val="west"/>
+      <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(320,1100)" name="Tunnel">
       <a name="label" val="B_ON"/>
