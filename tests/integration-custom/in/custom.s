@@ -38,7 +38,6 @@ branch_taken:
 branch_taken_2:
 lb s2 2(s3)
 
-sw s2 0(s3)
 bne s2 s3 branched
 addi s3 s3 s3
 
