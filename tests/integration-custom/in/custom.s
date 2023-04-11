@@ -23,12 +23,21 @@ srai t0, s0, 31
 
 lui s1 1048575
 lw s2 4(s1)
-addi s3 
-beq 
+addi s3 x0 10
+
+beq s3 s2 branch_taken
+mulhu s3 s3 s3
+jal ra branch_taken_2
+
+
 
 
 
 branch_taken:
+
+branch_taken_2:
+lb s2 2(s3)
+
 
 
 
