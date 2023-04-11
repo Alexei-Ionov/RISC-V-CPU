@@ -34,8 +34,10 @@ jal ra branch_taken_2
 
 
 branch_taken:
+sub s0 s0 t0
 
 branch_taken_2:
+lui s3 100424
 lb s2 2(s3)
 
 bne s2 s3 branched
