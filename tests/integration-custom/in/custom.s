@@ -37,17 +37,7 @@ branch_taken:
 sub s0 s0 t0
 
 branch_taken_2:
-lui s3 100424
-lb s2 2(s3)
-
-bne s2 s3 branched
-addi s3 s3 s3
-
-
-branched:
-xor ra s2 s3
-xori ra s2 10
-
+lui s3 210543
 
 
 
