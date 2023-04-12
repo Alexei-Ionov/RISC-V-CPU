@@ -690,12 +690,12 @@
       <a name="type" val="zero"/>
     </comp>
     <comp lib="0" loc="(2300,1360)" name="Tunnel">
-      <a name="label" val="rom"/>
+      <a name="label" val="res"/>
       <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(240,430)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="rom"/>
+      <a name="label" val="res"/>
       <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(240,790)" name="Tunnel">
