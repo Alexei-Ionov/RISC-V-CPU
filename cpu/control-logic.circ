@@ -503,6 +503,7 @@
     <comp lib="0" loc="(230,600)" name="Tunnel">
       <a name="label" val="lui"/>
     </comp>
+    <comp lib="0" loc="(240,960)" name="Constant"/>
     <comp lib="0" loc="(250,210)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="south"/>
@@ -1357,6 +1358,7 @@
     <wire from="(240,910)" to="(240,920)"/>
     <wire from="(240,920)" to="(240,930)"/>
     <wire from="(240,930)" to="(240,940)"/>
+    <wire from="(240,950)" to="(240,960)"/>
     <wire from="(250,210)" to="(250,230)"/>
     <wire from="(250,660)" to="(250,740)"/>
     <wire from="(250,740)" to="(280,740)"/>
@@ -1540,5 +1542,3 @@
     <wire from="(990,1370)" to="(1000,1370)"/>
   </circuit>
 </project>
-
-
